@@ -13,7 +13,7 @@
     var InspectorControls = wp.editor.InspectorControls;
     var SelectControl = wp.components.SelectControl;
     wp.blocks.registerBlockType('reepulse/code-snippet-box', {
-        title: 'Wordpress Code block',
+        title: 'code block wordpress',
         icon: 'editor-justify',
         category: 'common',
         attributes: {
