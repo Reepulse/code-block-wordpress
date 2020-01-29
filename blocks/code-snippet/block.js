@@ -13,7 +13,7 @@
     var InspectorControls = wp.editor.InspectorControls;
     var SelectControl = wp.components.SelectControl;
     wp.blocks.registerBlockType('reepulse/code-snippet-box', {
-        title: 'Code Snippet Beautifier',
+        title: 'Wordpress Code block',
         icon: 'editor-justify',
         category: 'common',
         attributes: {
@@ -41,12 +41,12 @@
             return [
                 wp.element.createElement(
                     "div", {
-                        class: "code_box_wrap",
-                    },
+                    class: "code_box_wrap",
+                },
                     wp.element.createElement(
                         "label", {
-                            "class": "reepulse_code_snippet_label"
-                        },
+                        "class": "reepulse_code_snippet_label"
+                    },
                         jsUcfirst(props.attributes.source) + " Code Snippet "
                     ),
                     wp.element.createElement("textarea", {
@@ -61,9 +61,9 @@
                     null,
                     wp.element.createElement(
                         PanelBody, {
-                            title: 'Snippet Settings',
-                            initialOpen: true
-                        },
+                        title: 'Snippet Settings',
+                        initialOpen: true
+                    },
                         wp.element.createElement(SelectControl, {
                             label: 'Source',
                             value: props.attributes.source,
