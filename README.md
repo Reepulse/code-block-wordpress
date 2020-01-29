@@ -1,4 +1,4 @@
-# Wordpress Code block
+# Code-block-wordpress
 
 ---
 
@@ -53,7 +53,7 @@ This is a wordpress plugin used add block to the wordpress editor which provides
 - After activating the plugin, go to your posts
 - Then select edit or add new post
 - Click on add block button
-- select `wordpress code block`
+- select `code block wordpress`
 - Then select Source on the right panel. Example if you want to write `javascript` code  select `javascript code block`
 - Write code inside the block and then publish the post
 - View the post, you will have highlighted code block with line number
